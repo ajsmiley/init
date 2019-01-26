@@ -1,0 +1,5 @@
+Question: Find the name and IP address of the device that links your local network to the outside world
+
+Solution: The (IANA) has reserved IP addresses from (10.0.0.0 - 10.255.255.255), (172.16.0.0 - 172.31.255.255), and (192.168.0.0 - 192.168.255.255) for (PAN) Private Area Networks. So using <traceroute slash16.org> we can determine where the local network changes from Private to Public by observing the IP addresses each hop.
+
+Answer: The last hop address that has a private IP is [nat (10.90.1.11)] so we can deduce that this is the device that links us to the outside world!

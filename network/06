@@ -1,0 +1,7 @@
+Problem: Get the complete path of the file that contains the IP address of the DNS server you're using.
+
+Solution: Host files are contained in the /ect file directories. Once we've traveled into there we can find the file resolv.conf. using <cat> we can find the IP
+
+TLDR:
+File path: /ect
+File: resolv.conf

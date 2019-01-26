@@ -1,0 +1,6 @@
+Problem: What files contain the local DNS entries?
+
+Solution: In MacOSX hosts files are located in the ect/ directory. To access them we will first us <cd /> to enter the root directory. Now we can travel further into ect <cd etc> and find a bunch of files. The file in question is hosts. By using the <cat> command we will find our local DNS entries.
+
+TOO LONG DONT CARE: 1) cd /etc
+2) cat hosts

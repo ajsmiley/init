@@ -1,0 +1,5 @@
+Problem: What file can you find the installed version of your Debian??
+
+Answer: Travel to the ect directory and you should find a file called <debian_version>. Inside this file you will find the version number. If the file doesn't exist then it has not been installed on this computer.
+
+TLDR: cat /etc/debian_version

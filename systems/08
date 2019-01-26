@@ -1,0 +1,3 @@
+Problem: What file contains the RSA keys of ststems that are authorized to connect via SSH?
+
+Answer: Keys must first be generated so we do that with the command <ssh-keygen -t rsa> and then the directory ~/.ssh will be created and keys will then be generated. The file in question is called id_rsa.

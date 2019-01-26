@@ -1,0 +1,7 @@
+Question: Find the provider of slash16.org
+
+Solution: To locate the provider we must first find the ip address of the website. We can do that with <nslookup slash16.org>. Now that we have a list of ip addresses we can enter it into the <whois> command followed by grep OrgName and we get the answer! :D
+
+TLDR: whois <ipaddress> | grep OrgName 
+
+Answer: Amazon.com Inc.

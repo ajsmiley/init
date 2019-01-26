@@ -1,0 +1,3 @@
+Problem: what file has to be modified to make it permanent?
+
+Answer: just like the command <hostname> the hostname file in the /ect directory needs to be changed for it to be permanent.
